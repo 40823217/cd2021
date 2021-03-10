@@ -3,7 +3,7 @@
 [diff]
 	guitool = kdiff3
 [core]
-	editor = \"F:/kmol2021_spring_v1/kmol2021_spring_v1/data/GitExtensions/GitExtensions.exe\" fileeditor
+	editor = \"E:/kmol2021_spring_v1/kmol2021_spring_v1/data/GitExtensions/GitExtensions.exe\" fileeditor
 [user]
 	name = 40823217
 	email = 40823217@gm.nfu.edu.tw
