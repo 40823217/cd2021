@@ -411,8 +411,31 @@ esc..........結束</pre>
 <p><iframe height="500" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR289Nn3VEylE_FuQRNy7VXPXfnBXrMAngjC-JdcF8cOUh_PTlStgx4q0sRPnnLs8ORzNWY_nsV6--Y/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="300"></iframe></p>
 <p></p>
 <h1>W16</h1>
+<h4>MTB_robot 的取放方塊流程規劃 :</h4>
+<h4>1. Onshape 零組件繪製 </h4>
+<p>零組件必須在<span> </span><a href="https://www.onshape.com/">Onshap</a>e<span> </span>繪圖.</p>
+<h4>2. 建立 CoppeliaSim 4.1.0 MTB robot 場景 </h4>
+<p>請以自行繪製之零件輸入 CoppeliaSim 後, 組合為 MTB robot 模型, 並利用 Leo Editor 以 require 導入 Lua 程式運作, 分別控制各軸轉動示範</p>
+<h4>3. 手臂末端加入 components-gripper-suction pad 吸盤 </h4>
+<p>請接續上述 MTB robot, 在其末端接上 force sensor 後接上標準 suction pad </p>
+<h4>4. 逆向運動學函式 </h4>
+<p> 以程式指定方塊取放之兩個位置 - (0.2, 0.7, 0.05) 與 (-0.3, -0.55, 0.05)</p>
+<h4>5. Python remote API 逆向運動學函式 </h4>
+<p>利用remote API 程式重現以迴圈方式執行 W15 兩個指定位置之方塊取放.</p>
+<p>網站載點:<a href="https://github.com/40823217/cd2021/tree/main/W16work">W16work</a></p>
+<h4>(1). Onshape 零組件繪製 </h4>
+<p>影片展示:</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/RN7T8pdROG8" width="560"></iframe></p>
 <p></p>
-<h1>網站影片</h1>
+<p>(2).<span> </span>MTB robot 場景跟gripper-suction pad 吸盤</p>
+<h4><span> (</span>逆向運動學函式 /remote API 逆向運動學函式)</h4>
+<p>影片展示:</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/U012lz26N-M" width="560"></iframe></p>
+<p>(3).<span>W16_exam下載處:</span></p>
+<p><span>https://drive.google.com/drive/folders/1C7IgSi6jL0JjDskmgIXHLYuvJUIUs2dF?usp=sharing</span></p>
+<p></p>
+<p></p>
+<p></p><h1>網站影片</h1>
 <p>第一次所設計的樣式</p>
 <p>繪圖者:40823201</p>
 <p>使用AutoCAD2017/inventor2017繪製</p>
