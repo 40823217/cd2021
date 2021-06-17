@@ -31,7 +31,7 @@ if clientID != -1:
     print ('Connected to remote API server')
       
     res = vrep.simxAddStatusbarMessage(
-        clientID, "This is teach by 40823217 ",
+        clientID, " 40823217 ",
         vrep.simx_opmode_oneshot)
     if res not in (vrep.simx_return_ok, vrep.simx_return_novalue_flag):
         print("Could not add a message to the status bar.")
